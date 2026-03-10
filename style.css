@@ -1,0 +1,28 @@
+.navbar-brand img {
+    height: 40px;
+  }
+
+  /* Hide the search modal initially */
+  .search-modal .modal-dialog {
+    max-width: 400px;
+  }
+
+  /* Style search button */
+  .search-btn {
+    cursor: pointer;
+  }
+
+  /* Hide the cart and wishlist when not logged in (example) */
+  .cart-wishlist-icons {
+    display: flex;
+    gap: 20px;
+  }
+
+  .cart-wishlist-icons i {
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .search-input {
+    width: 100%;
+  }
